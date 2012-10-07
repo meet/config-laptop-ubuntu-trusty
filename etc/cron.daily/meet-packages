@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+#
+# Installs and removes packages based on configuration.
+# [maxg]
+#
+
+use YAML::Tiny;
+
+my @apt_get = ( 'apt-get', '--quiet', '--quiet' );
+my $pkgs = YAML::Tiny->read('/etc/MEET/packages.yaml')->[0];
+
+system @apt_get, ( 'update' );
+system @apt_get, ( '--no-remove', '--yes', 'install' ), @{$pkgs->{install}};
+system @apt_get, ( '--purge', 'remove' ), @{$pkgs->{remove}};

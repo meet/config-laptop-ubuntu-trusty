@@ -1,0 +1,6 @@
+#
+# Packages to install or remove.
+#
+
+install:
+ - eclipse
