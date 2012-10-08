@@ -3,4 +3,6 @@
 #
 
 install:
+ - chromium-browser
  - eclipse
+ - idle
