@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Remove NetworkManager
+dpkg --purge network-manager network-manager-gnome
+
 # Configuration files
 REPO=config-fatlab-ubuntu-precise
 ( cd / \
