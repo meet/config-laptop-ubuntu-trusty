@@ -1,0 +1,8 @@
+[com.canonical.unity-greeter]
+play-ready-sound = false
+
+[com.canonical.Unity.ApplicationsLens]
+display-available-apps = false
+
+[com.canonical.Unity.Launcher]
+favorites = ['nautilus-home.desktop', 'gnome-terminal.desktop', 'firefox.desktop', 'eclipse.desktop', 'idle.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop']

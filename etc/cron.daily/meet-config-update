@@ -6,3 +6,5 @@
 #
 
 ( cd / && git pull --quiet origin master )
+
+glib-compile-schemas /usr/share/glib-2.0/schemas
