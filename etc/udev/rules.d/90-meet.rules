@@ -1,0 +1,2 @@
+# Hide disk partitions (including Windows)
+SUBSYSTEM=="block", ACTION=="add", KERNEL=="sda*", ENV{UDISKS_PRESENTATION_HIDE}="1"
