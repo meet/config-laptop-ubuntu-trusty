@@ -5,4 +5,5 @@
 install:
  - chromium-browser
  - eclipse
+ - gimp
  - idle
