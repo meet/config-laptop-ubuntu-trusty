@@ -1,0 +1,21 @@
+#!/usr/bin/ruby
+
+require "yaml"
+
+DOWNLOAD='/usr/lib/firefox-addons/download'
+ADDONS='/usr/lib/firefox-addons/extensions'
+config = YAML.load_file('/etc/MEET/firefox-addons.yaml')
+
+exit unless config.is_a? Hash
+
+Dir.chdir(DOWNLOAD)
+
+config.each do |id, url|
+  xpi = File.basename(url)
+  name = File.basename(url, '.xpi')
+  result = `wget -N "#{url}" 2>&1`
+  next if result =~ /not retrieving/
+  `rm -rf "#{name}"`
+  `unzip "#{xpi}" -d "#{name}"`
+  `ln -sf "#{DOWNLOAD}/#{name}" "#{ADDONS}/#{id}"`
+end
