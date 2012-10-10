@@ -8,3 +8,4 @@ install:
  - filezilla
  - gimp
  - idle
+ - tomcat7-user
