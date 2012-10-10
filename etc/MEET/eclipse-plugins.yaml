@@ -1,0 +1,31 @@
+#
+# Eclipse plug-ins to install.
+#
+
+http://download.eclipse.org/releases/indigo:
+ - org.eclipse.egit.feature.group
+ - org.eclipse.jst.enterprise_ui.feature.feature.group
+ - org.eclipse.jst.web_ui.feature.feature.group
+ - org.eclipse.jst.server_adapters.feature.feature.group
+ - org.eclipse.jst.server_adapters.ext.feature.feature.group
+ - org.eclipse.jst.webpageeditor.feature.feature.group
+ - org.eclipse.wst.web_ui.feature.feature.group
+ - org.eclipse.wst.jsdt.feature.feature.group
+ - org.eclipse.wst.server_adapters.feature.feature.group
+
+http://subclipse.tigris.org/update_1.8.x:
+ - org.tigris.subversion.subclipse.feature.group
+ - org.tigris.subversion.subclipse.graph.feature.feature.group
+ - org.tigris.subversion.clientadapter.feature.feature.group
+ - org.tigris.subversion.clientadapter.javahl.feature.feature.group
+ - org.tigris.subversion.clientadapter.svnkit.feature.feature.group
+ - org.tmatesoft.svnkit.feature.group
+ - net.java.dev.jna.feature.group
+
+http://dl.google.com/eclipse/plugin/3.7:
+ - com.google.gdt.eclipse.suite.e37.feature.feature.group
+ - com.google.appengine.eclipse.sdkbundle.feature.feature.group
+
+# Fails due to untrusted certificate
+#http://pydev.org/updates:
+# - org.python.pydev.feature.feature.group
