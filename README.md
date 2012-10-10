@@ -1,5 +1,10 @@
 ## Configuration for lab machines running Ubuntu 12.04 "Precise Pangolin"
 
+### Eclipse
+ * To run a Java web project on a local Tomcat server, use the console command
+   `tomcat7-instance-create`, then define a new **Server &rarr; Apache &rarr;
+   Tomcat v7.0 Server** in Eclipse
+
 ### Installation Prerequisites
  * Machine MAC address must be added to server config `/etc/dhcp/meet-lab.conf`
    (the MAC address is displayed during the first step below)
