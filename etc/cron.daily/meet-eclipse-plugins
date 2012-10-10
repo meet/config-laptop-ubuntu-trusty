@@ -1,0 +1,36 @@
+#!/usr/bin/ruby
+
+#
+# Install shared Eclipse plug-ins.
+# [maxg]
+#
+
+require "yaml"
+
+ECLIPSE='/usr/lib/eclipse'
+config = YAML.load_file('/etc/MEET/eclipse-plugins.yaml')
+
+exit unless config.is_a? Hash
+
+dir = Dir.new("#{ECLIPSE}/features")
+urls = []
+ius = []
+
+config.each do |url, features|
+  urls.push(url)
+  features.each do |feature|
+    name = feature.sub('.feature.group', '')
+    if dir.grep(/#{name}/).empty?
+      ius.push(feature)
+    end
+  end
+end
+
+if not ius.empty?
+  puts "Installing: #{ius.join(' ')}"
+  system "#{ECLIPSE}/eclipse", '-nosplash',
+         '-application', 'org.eclipse.equinox.p2.director',
+         '-repository', urls.join(','),
+         '-installIU', ius.join(',')
+  system "#{ECLIPSE}/eclipse", '-nosplash', '-initialize'
+end
