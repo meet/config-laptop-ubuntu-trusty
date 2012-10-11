@@ -15,5 +15,6 @@ install:
  - idle
  - mercurial
  - mysql-client
+ - python-pygame
  - tomcat7-user
  - unrar
