@@ -19,4 +19,4 @@ auth-client-config -t nss -p lac_ldap
 chmod 440 /etc/sudoers.d/*
 
 # Epoptes
-epoptes-client -c
+epoptes-client -c server
