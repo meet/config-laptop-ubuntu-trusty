@@ -8,6 +8,7 @@
 ### Installation Prerequisites
  * Machine MAC address must be added to server config `/etc/dhcp/meet-lab.conf`
    (the MAC address is displayed during the first step below)
+ * After updating this file, restart DHCP: `service isc-dhcp-server restart`
 
 ### Automatic Network Installation
  * Boot from the network by rebooting and holding down `F12`
