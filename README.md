@@ -5,6 +5,11 @@
    `tomcat7-instance-create`, then define a new **Server &rarr; Apache &rarr;
    Tomcat v7.0 Server** in Eclipse
 
+### Επόπτης
+ * Staff can use the Epoptes management interface by running it on the server:
+   `remote-epoptes`
+ * Only student logins start the Epoptes client and can be remote-controlled
+
 ### Installation Prerequisites
  * Machine MAC address must be added to server config `/etc/dhcp/meet-lab.conf`
    (the MAC address is displayed during the first step below)
