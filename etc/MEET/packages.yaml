@@ -1,5 +1,11 @@
 #
 # Packages to install or remove.
+# ====
+# install:
+#  - awesome-package
+# remove:
+#  - evil-package
+# ====
 #
 
 install:

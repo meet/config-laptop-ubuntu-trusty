@@ -10,6 +10,10 @@
    `remote-epoptes`
  * Only student logins start the Epoptes client and can be remote-controlled
 
+### Installing Additional Packages
+ * Edit `/etc/MEET/packages.yaml`
+ * Reboot to trigger `/etc/cron.daily/meet-packages`
+
 ### Installation Prerequisites
  * Machine MAC address must be added to server config `/etc/dhcp/meet-lab.conf`
    (the MAC address is displayed during the first step below)
