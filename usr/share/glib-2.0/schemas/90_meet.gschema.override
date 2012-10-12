@@ -1,5 +1,7 @@
 [com.canonical.unity-greeter]
 play-ready-sound = false
+draw-grid = false
+logo = '/usr/share/unity-greeter/logo-with-meet.png'
 
 [com.canonical.Unity.ApplicationsLens]
 display-available-apps = false
