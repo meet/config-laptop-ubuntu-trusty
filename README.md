@@ -10,9 +10,24 @@
    `remote-epoptes`
  * Only student logins start the Epoptes client and can be remote-controlled
 
+* * *
+
+### Known Issues
+
+#### Blank screen after logging in
+ * First, wait another minute, especially when logging in for the first time
+ * Press `Ctrl-Alt-Del` and select "Log out", then `Ctrl-Alt-F1` and log in to
+   the terminal
+ * Run `rm -rf .gconf` to remove the `.gconf` folder
+ * `logout` of the terminal, press `Ctrl-Alt-F7`, and log in normally
+
+* * *
+
 ### Installing Additional Packages
  * Edit `/etc/MEET/packages.yaml`
  * Reboot to trigger `/etc/cron.daily/meet-packages`
+
+* * *
 
 ### Installation Prerequisites
  * Machine MAC address must be added to server config `/etc/dhcp/meet-lab.conf`
