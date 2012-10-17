@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+
+# Reboot weekly
+0 3 * * 0 root /sbin/shutdown -r "+$(($RANDOM \% 120 + 5))"
