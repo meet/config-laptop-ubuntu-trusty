@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#
+# Download Epoptes certificate.
+# [maxg]
+#
+
+[[ -s /etc/epoptes/server.crt ]] || epoptes-client -c server
