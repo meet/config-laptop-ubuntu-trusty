@@ -18,3 +18,5 @@ install:
  - python-pygame
  - tomcat7-user
  - unrar
+ - python-numpy
+ - python-scipy
