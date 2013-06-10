@@ -20,3 +20,4 @@ install:
  - unrar
  - python-numpy
  - python-scipy
+ - python-opencv
