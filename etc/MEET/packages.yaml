@@ -21,3 +21,10 @@ install:
  - python-numpy
  - python-scipy
  - python-opencv
+ - Django
+ - GVim
+ - BPython
+ - sublime-text
+ - Chrome
+ - git
+ 
