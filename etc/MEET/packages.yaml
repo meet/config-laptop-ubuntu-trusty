@@ -25,6 +25,4 @@ install:
  - gvim
  - bpython
  - sublime-text
- - chrome
- - git
- 
+ - python-django
