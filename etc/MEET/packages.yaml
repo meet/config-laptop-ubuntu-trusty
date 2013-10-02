@@ -21,7 +21,7 @@ install:
  - python-numpy
  - python-scipy
  - python-opencv
- - gvim
  - bpython
  - python-pip
  - python-django
+ - vim-gnome
