@@ -23,5 +23,4 @@ install:
  - python-opencv
  - bpython
  - python-pip
- - python-django
  - vim-gnome
