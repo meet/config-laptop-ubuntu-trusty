@@ -24,3 +24,4 @@ install:
  - bpython
  - python-pip
  - vim-gnome
+ - network-manager
