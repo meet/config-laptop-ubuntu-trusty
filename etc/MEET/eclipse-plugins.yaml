@@ -26,7 +26,7 @@ http://dl.google.com/eclipse/plugin/3.7:
  - com.google.gdt.eclipse.suite.e37.feature.feature.group
  - com.google.appengine.eclipse.sdkbundle.feature.feature.group
  
-http://update-production-pydev.s3.amazonaws.com/pydev/nightly/site.xml:
+#http://update-production-pydev.s3.amazonaws.com/pydev/nightly/site.xml:
 # Fails due to untrusted certificate
 #http://pydev.org/updates:
 # - org.python.pydev.feature.feature.group
