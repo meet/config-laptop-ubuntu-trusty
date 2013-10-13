@@ -3,5 +3,4 @@
 #
 
 # Firebug replaced by built-in tools
-#firebug@software.joehewitt.com:
-https://addons.mozilla.org/firefox/downloads/latest/firebug/addon-firebug-latest.xpi:
+firebug@software.joehewitt.com: https://addons.mozilla.org/firefox/downloads/latest/firebug/addon-firebug-latest.xpi
