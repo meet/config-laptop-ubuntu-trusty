@@ -8,7 +8,7 @@
 require "yaml"
 
 PIP='/usr/bin/pip'
-config = YAML.load_file('/home/etimmons/meet-workspace/config-fatlab-ubuntu-precise/etc/MEET/pip.yaml')
+config = YAML.load_file('/etc/MEET/pip.yaml')
 
 exit unless config.is_a? Hash
 
