@@ -1,0 +1,12 @@
+# Contains the packages to install using pip, the python package manager.
+# 
+# Each entry should be of the form:
+# 
+#   PACKAGE_NAME:
+#     - VERSION_1
+#     - VERSION_2
+#
+# Where each version is a version specifier denoting which version to install.
+# If you want the latest version of any package, put 'latest' (without quotes) as the version specifier.
+# Anything marked latest will be updated daily.
+
