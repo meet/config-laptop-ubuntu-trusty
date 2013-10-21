@@ -11,10 +11,10 @@
 # Anything marked latest will be updated daily.
 
 ipython[all]:
-  - latest
+ - latest
 
 tornado:
-  - latest
+ - latest
 
 pyzwq:
-  - latest
+ - latest
