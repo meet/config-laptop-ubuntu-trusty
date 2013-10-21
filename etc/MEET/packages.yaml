@@ -25,3 +25,4 @@ install:
  - python-pip
  - vim-gnome
  - network-manager
+ - pandoc

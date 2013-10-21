@@ -10,3 +10,11 @@
 # If you want the latest version of any package, put 'latest' (without quotes) as the version specifier.
 # Anything marked latest will be updated daily.
 
+ipython[all]:
+  - latest
+
+tornado:
+  - latest
+
+pyzwq:
+  - latest
