@@ -12,7 +12,7 @@ config = YAML.load_file('/etc/MEET/debs.yaml')
 
 exit unless config.is_a? Hash
 
-Dir.mkdir(DOWNLOAD) unless Dir.exists?(DOWNLOAD)
+Dir.mkdir(DOWNLOAD) unless File.exists?(DOWNLOAD)
 
 Dir.chdir(DOWNLOAD)
 
