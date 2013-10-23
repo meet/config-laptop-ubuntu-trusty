@@ -1,0 +1,25 @@
+#!/usr/bin/ruby
+
+#
+# Install or update deb packages.
+# [etimmons]
+#
+
+require "yaml"
+
+DOWNLOAD='/usr/lib/meet-debs'
+config = YAML.load_file('/etc/MEET/debs.yaml')
+
+exit unless config.is_a? Hash
+
+Dir.mkdir(DOWNLOAD) unless Dir.exists?(DOWNLOAD)
+
+Dir.chdir(DOWNLOAD)
+
+config.each do |id, url|
+  deb = File.basename(url)
+  next if File.exists?(deb)
+  result = `wget -N "#{url}" 2>&1`
+  next if result =~ /not retrieving/
+  `dpkg --install #{deb}`
+end
