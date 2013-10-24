@@ -27,10 +27,10 @@ end
 
 versioned_packages.each do |p|
   puts "Installing: #{p}"
-  system PIP, 'install', p
+  system PIP, 'install', "'#{p}'"
 end
 
 latest_packages.each do |p|
   puts "Installing latest version of: #{p}"
-  system PIP, 'install', '-U', p
+  system PIP, 'install', '-U', "'#{p}'"
 end
