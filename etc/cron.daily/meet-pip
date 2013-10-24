@@ -25,12 +25,12 @@ config.each do |package, versions|
   end
 end
 
-if not versioned_packages.empty?
-  puts "Installing: #{versioned_packages.join(' ')}"
-  system PIP, 'install', versioned_packages.join(' ')
+versioned_packages.each do |p|
+  puts "Installing: #{p}"
+  system PIP, 'install', p
 end
 
-if not latest_packages.empty?
-  puts "Installing latest versions of: #{latest_packages.join(' ')}"
-  system PIP, 'install', '-U', latest_packages.join(' ')
+latest_packages.each do |p|
+  puts "Installing latest version of: #{p}"
+  system PIP, 'install', '-U', p
 end
