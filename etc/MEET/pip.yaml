@@ -16,5 +16,5 @@ ipython[all]:
 tornado:
  - latest
 
-pyzwq:
+pyzmq:
  - latest
