@@ -26,3 +26,4 @@ install:
  - vim-gnome
  - network-manager
  - pandoc
+ - python-matplotlib
