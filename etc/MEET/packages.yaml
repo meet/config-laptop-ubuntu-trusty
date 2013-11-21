@@ -27,5 +27,5 @@ install:
  - network-manager
  - pandoc
  - python-matplotlib
- - arduino-core
  - arduino
+ - arduino-core
