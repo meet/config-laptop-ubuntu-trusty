@@ -28,3 +28,4 @@ install:
  - pandoc
  - python-matplotlib
  - arduino-core
+ - arduino
