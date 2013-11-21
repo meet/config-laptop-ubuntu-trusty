@@ -1,0 +1,24 @@
+#!/usr/bin/ruby
+
+#
+# Ensure all users are in appropriate local groups.
+# [etimmons]
+#
+
+GID = `getent group meet`.split(":")[2]
+
+def run(arr)
+  puts " #{arr.inspect}"
+  system *arr
+end
+
+dialout_members = `getent group dialout`.split(":")[3].split(",")
+
+`getent passwd`.split("\n").each do |passwd|
+  user, pass, uid, gid, name, home, shell = passwd.split(":")
+  next unless gid == GID && home =~ /^\/home\//
+  next if dialout_members.include?(user)
+
+  puts "Adding #{user} to dialout"
+  run ['adduser', user, 'dialout']
+end
