@@ -27,3 +27,4 @@ install:
  - network-manager
  - pandoc
  - python-matplotlib
+ - python-pygame
