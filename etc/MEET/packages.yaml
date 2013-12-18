@@ -28,3 +28,5 @@ install:
  - pandoc
  - python-matplotlib
  - python-pygame
+ - arduino
+ - arduino-core
