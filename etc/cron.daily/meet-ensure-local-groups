@@ -13,6 +13,7 @@ def run(arr)
 end
 
 dialout_members = `getent group dialout`.split(":")[3].split(",")
+dialout_members[-1].chomp!
 
 `getent passwd`.split("\n").each do |passwd|
   user, pass, uid, gid, name, home, shell = passwd.split(":")
