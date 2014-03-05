@@ -30,3 +30,4 @@ install:
  - python-pygame
  - arduino
  - arduino-core
+ - libzmq-dev
