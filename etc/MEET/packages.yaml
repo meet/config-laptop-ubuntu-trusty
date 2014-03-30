@@ -31,3 +31,5 @@ install:
  - arduino
  - arduino-core
  - libzmq-dev
+ - language-pack-ar
+ - language-pack-he
