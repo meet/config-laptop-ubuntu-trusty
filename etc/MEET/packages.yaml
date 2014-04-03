@@ -33,3 +33,5 @@ install:
  - libzmq-dev
  - language-pack-ar
  - language-pack-he
+ - recordmydesktop
+ - gtk-recordmydesktop
