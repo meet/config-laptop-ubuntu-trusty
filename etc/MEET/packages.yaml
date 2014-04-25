@@ -35,4 +35,3 @@ install:
  - language-pack-he
  - recordmydesktop
  - gtk-recordmydesktop
- - vlc
