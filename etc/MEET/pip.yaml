@@ -21,3 +21,12 @@ pyzmq:
 
 Jinja2:
  - latest
+
+kivy:
+ - latest
+
+cython: 
+ - latest
+
+buildozer:
+ - latest
