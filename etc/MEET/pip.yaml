@@ -29,7 +29,7 @@ kivy:
  - latest
 
 buildozer:
- - latest
+ - 0.15
 
 git+https://github.com/dgrtwo/ParsePy.git:
  - latest
