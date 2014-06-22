@@ -36,7 +36,6 @@ install:
  - recordmydesktop
  - gtk-recordmydesktop
  - ccache
- - lib32stdc++6
  - openjdk-7-jdk
  - build-essential
  - git
