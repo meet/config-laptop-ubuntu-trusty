@@ -36,3 +36,9 @@ git+https://github.com/dgrtwo/ParsePy.git:
 
 Django:
  - 1.6.5
+
+virtualenv:
+ - latest
+
+virtualenvwrapper:
+ - latest
