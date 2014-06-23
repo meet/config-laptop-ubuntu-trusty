@@ -33,3 +33,6 @@ buildozer:
 
 git+https://github.com/dgrtwo/ParsePy.git:
  - latest
+
+Django:
+ - 1.6.5
