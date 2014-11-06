@@ -1,7 +1,2 @@
 ipython[all]
-tornado
-pyzmq
-Jinja2
-buildozer
-git+https://github.com/dgrtwo/ParsePy.git
 Django
