@@ -61,3 +61,4 @@ install:
  - libgles2-mesa-dev 
  - python-software-properties
  - python3.3
+ - python3.3-dev
