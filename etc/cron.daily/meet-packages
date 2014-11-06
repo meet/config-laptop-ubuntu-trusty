@@ -10,6 +10,9 @@ use YAML::Tiny;
 my @apt_get = ( 'apt-get', '--quiet', '--quiet' );
 my $pkgs = YAML::Tiny->read('/etc/MEET/packages.yaml')->[0];
 
+
+# Ensure the python3 PPA is installed.
+system ('add-apt-repository', '-y', ' ppa:fkrull/deadsnakes');
 system @apt_get, ( 'update' );
 system @apt_get, ( '--no-remove', '--yes', 'install' ), @{$pkgs->{install}};
 system @apt_get, ( '--purge', 'remove' ), @{$pkgs->{remove}};

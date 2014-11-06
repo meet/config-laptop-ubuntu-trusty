@@ -60,4 +60,4 @@ install:
  - libgl1-mesa-dev
  - libgles2-mesa-dev 
  - python-software-properties
- - python3
+ - python3.3
