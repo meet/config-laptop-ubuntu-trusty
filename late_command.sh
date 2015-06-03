@@ -15,5 +15,8 @@ REPO=config-fatlab-ubuntu-trusty
 # LDAP authentication
 auth-client-config -t nss -p lac_ldap
 
+# Update the initgroups_ignoreusers list otherwise Ubuntu will never boot.
+nssldap-update-ignoreusers
+
 # sudo
 chmod 440 /etc/sudoers.d/*
