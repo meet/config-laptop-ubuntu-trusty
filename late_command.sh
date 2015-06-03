@@ -4,7 +4,7 @@
 dpkg --purge network-manager network-manager-gnome
 
 # Configuration files
-REPO=config-fatlab-ubuntu-precise
+REPO=config-fatlab-ubuntu-trusty
 ( cd / \
   && git clone --no-checkout https://github.com/meet/$REPO.git \
   && mv $REPO/.git / \
