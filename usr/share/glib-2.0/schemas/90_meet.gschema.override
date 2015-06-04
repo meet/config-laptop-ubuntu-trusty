@@ -8,3 +8,7 @@ display-available-apps = false
 
 [com.canonical.Unity.Launcher]
 favorites = ['nautilus-home.desktop', 'gnome-terminal.desktop', 'firefox.desktop', 'eclipse.desktop', 'meet-idle.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop']
+
+[com.canonical.Unity.lenses]
+remote-content-search = 'none'
+disabled-scopes = ['more_suggestions-amazon.scope', 'more_suggestions-u1ms.scope', 'more_suggestions-populartracks.scope', 'music-musicstore.scope', 'more_suggestions-ebay.scope', 'more_suggestions-ubuntushop.scope', 'more_suggestions-skimlinks.scope']
