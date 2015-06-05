@@ -11,4 +11,5 @@
 install:
  - chromium-browser
  - gimp
-
+ - python3-pip
+ - python-pip
