@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Epoptes client service
-Comment=Epoptes computer lab administation tool client service
-Exec=/opt/MEET/epoptes-client-students
-Icon=epoptes
-Terminal=false
-Type=Application
-Categories=Settings;System;
-# X-GNOME-AutoRestart=true

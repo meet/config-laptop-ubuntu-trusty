@@ -1,0 +1,5 @@
+#! /bin/sh
+
+/etc/cron.daily/meet-config-update
+/etc/cron.daily/meet-packages
+

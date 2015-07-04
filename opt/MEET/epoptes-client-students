@@ -1,8 +1,0 @@
-#!/bin/bash
-
-#
-# Start Epoptes client for non-staff.
-# [maxg]
-#
-
-id -nG | grep -q all-staff || /usr/sbin/epoptes-client

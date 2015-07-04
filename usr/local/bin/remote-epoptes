@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo -n "Connecting to "
-host server | tail -1
-
-ssh -t -Y server epoptes
