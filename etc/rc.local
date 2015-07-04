@@ -11,9 +11,4 @@
 #
 # By default this script does nothing.
 
-#
-# Run all daily cron scripts at boot.
-# [maxg]
-#
 
-run-parts --regex=meet- /etc/cron.daily
