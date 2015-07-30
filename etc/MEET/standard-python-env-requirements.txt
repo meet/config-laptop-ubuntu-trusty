@@ -1,2 +1,2 @@
 ipython[all]
-Django==1.6.5
+Django==1.8
