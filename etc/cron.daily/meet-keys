@@ -1,0 +1,3 @@
+#! /bin/bash
+
+(apt-key list | grep "release@heroku.com") || apt-key add /etc/MEET/heroku.key
