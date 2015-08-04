@@ -20,4 +20,12 @@ install:
  - libapache2-mod-php5
  - flashplugin-installer
  - heroku-toolbelt
- 
+ - git
+ - ruby
+ - python-pip
+ - python-virtualenv
+ - libpq-dev
+ - python-dev
+ - postgresql
+ - postgresql-contrib
+ - libncurses-dev
