@@ -3,4 +3,4 @@
 /etc/cron.daily/meet-config-update
 /etc/cron.daily/meet-keys
 /etc/cron.daily/meet-packages
-
+/etc/cron.daily/meet-deb
