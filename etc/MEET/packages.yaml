@@ -14,7 +14,6 @@ install:
  - python3-pip
  - python-pip
  - flashplugin-installer
- - heroku-toolbelt
  - git
  - ruby
  - python-virtualenv
